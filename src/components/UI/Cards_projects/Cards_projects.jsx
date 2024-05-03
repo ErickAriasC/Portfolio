@@ -6,7 +6,7 @@ export const Cards_projects = () => {
   return (
     <>
         <Container style='container_cards'>
-            <Image_container url='src\images\Profile.jpg' style='project'/>
+            <Image_container url='src\images\img_projects.jpg' style='project'/>
             <Container style='content_card'>
                 <h3>Tittle</h3>
                 <h4>Description</h4>

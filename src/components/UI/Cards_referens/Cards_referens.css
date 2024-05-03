@@ -1,0 +1,9 @@
+
+.card_referens{
+    width: 11.5rem;
+    height: auto;
+    border: 3px solid #5a5a5a;
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem 1rem 3.5rem 1rem;
+}

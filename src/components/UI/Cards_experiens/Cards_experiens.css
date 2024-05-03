@@ -1,0 +1,32 @@
+.img_experiens{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    border: 3px solid #c1ff95;
+    object-fit: cover;
+}
+
+.card_experiens{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.progress-bar {
+    width: 150px; 
+    height: 20px; 
+    background-color: #c1ff95; 
+    border-radius: 10px; 
+  }
+  
+  .progress {
+    height: 100%; 
+    background-color: #39a900; 
+    border-radius: 10px; 
+    width: 50%; 
+  }
+  
