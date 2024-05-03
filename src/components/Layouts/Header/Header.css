@@ -58,6 +58,7 @@ h1{
     height: auto;
     background-color: white;
     border-radius: 50%;
-    margin-top: 5rem;
+    margin: 5rem 0 3rem 0;
     border: 2px solid  #b3b3b3;
 }
+

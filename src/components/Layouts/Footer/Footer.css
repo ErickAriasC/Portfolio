@@ -1,16 +1,27 @@
 footer{
     width: 100%;
-    height: auto;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    background-color: #c1ff9541;
+    color: aqua;
+
 }
 
-.item_red_social{
-}
-
-ul{
+.nav_red_social{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
 
+.ul_footer{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }

@@ -8,13 +8,13 @@ export const Footer = () => {
         <>
             <footer>
                 <Navbar style='nav_red_social'>
-                    <ItemNavbar content={<FaLinkedinIn />} styles='item_red_social' />
-                    <ItemNavbar content={<FaFacebookF />} styles='item_red_social' />
-                    <ItemNavbar content={<FaInstagram />} styles='item_red_social' />
-                    <ItemNavbar content={<FaTwitter />} styles='item_red_social' />
-                    <ItemNavbar content={<FaWhatsapp />} styles='item_red_social' />
-
-
+                    <ul className='ul_footer'>
+                    <ItemNavbar content={<FaLinkedinIn style={{ color: 'white' }} />} styles='item_red_social' />
+                    <ItemNavbar content={<FaFacebookF style={{ color: 'white' }}/>} styles='item_red_social' />
+                    <ItemNavbar content={<FaInstagram style={{ color: 'white' }}/>} styles='item_red_social' />
+                    <ItemNavbar content={<FaTwitter style={{ color: 'white' }}/>} styles='item_red_social' />
+                    <ItemNavbar content={<FaWhatsapp style={{ color: 'white' }}/>} styles='item_red_social' />
+                    </ul>
                 </Navbar>
             </footer>
         </>

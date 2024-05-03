@@ -1,0 +1,22 @@
+.logo{
+    width: 5rem;
+    height: auto;
+    background-color: #c1ff95;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.container_tittle_logo{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: rgb(59, 59, 59);
+    font-size: 2rem;
+    border-bottom: 10px solid #c1ff95;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+h2{
+    font-weight: bolder;
+}
