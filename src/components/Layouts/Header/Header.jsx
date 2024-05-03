@@ -9,7 +9,7 @@ export const Header = () => {
     return (
         <>
             <header className='header-page'>
-                <Image_container url='\src\images\Profile.jpg' style='profile' />
+                <Image_container url='\images\Profile.jpg' style='profile' />
 
                 <Container style='container_name_bar_separeitor'>
                     <h1>ERICK ARIAS CARDONA</h1>
