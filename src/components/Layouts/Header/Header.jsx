@@ -3,6 +3,8 @@ import { Container } from '../../Container/Container'
 import { Navbar } from '../../UI/Navbar/Navbar'
 import { ItemNavbar } from '../../UI/ItemNavbar/ItemNavbar'
 import profile from '../../../assets/images/Profile.jpg'
+import icon_sena from '../../../assets/images/logoSena_sin_fondo.png'
+
 
 import './Header.css'
 
@@ -14,7 +16,6 @@ export const Header = () => {
 
                 <Container style='container_name_bar_separeitor'>
                     <h1>ERICK ARIAS CARDONA</h1>
-                    <Image_container url='src\images\separeitor_bar_white.png' style='separeitor_bar_white' />
 
                 </Container>
                 <Navbar style='nav_options'>
@@ -24,7 +25,7 @@ export const Header = () => {
                 <ItemNavbar content='Referencias' styles='item_navbar_options' />
                 </Navbar>
 
-                <Image_container url='src\images\logoSena_sin_fondo.png' style='logo_sena' />
+                <Image_container url={icon_sena} style='logo_sena' />
 
             </header>
         </>

@@ -3,6 +3,12 @@ import { Tittle_logo } from '../../UI/Tittle_logo/Tittle_logo'
 import { Cards_projects } from '../../UI/Cards_projects/Cards_projects'
 import { Cards_referens } from '../../UI/Cards_referens/Cards_referens'
 import { Cards_experiens } from '../../UI/Cards_experiens/Cards_experiens'
+import node_js from '../../../assets/images/node_js.png'
+import mongo from '../../../assets/images/mongo.png'
+import java from '../../../assets/images/Java.png'
+import react from '../../../assets/images/react.png'
+
+
 import './Main.css'
 
 export const Main = () => {
@@ -27,10 +33,10 @@ export const Main = () => {
         
          <Tittle_logo content='EXPERIENCIAS'/>
          <Container style='container_card_experiens'>
-            <Cards_experiens url='src\images\react.png' content='Bases'/>
-            <Cards_experiens url='src\images\node_js.png' content='Bases'/>
-            <Cards_experiens url='src\images\mongo.png' content='Intermedio'/>
-            <Cards_experiens url='src\images\Java.png' content='Avanzado'/>
+            <Cards_experiens url={react} content='Bases'/>
+            <Cards_experiens url={node_js} content='Bases'/>
+            <Cards_experiens url={mongo} content='Intermedio'/>
+            <Cards_experiens url={java} content='Avanzado'/>
 
          </Container>
         </main>
