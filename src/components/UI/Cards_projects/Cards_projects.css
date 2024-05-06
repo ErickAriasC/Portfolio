@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 
 .container_cards{
     width: 23rem;
@@ -35,6 +40,3 @@
     color: #5a5a5a;
 }
 
-.content_card>h3,h4{
-    margin: 0;
-}
